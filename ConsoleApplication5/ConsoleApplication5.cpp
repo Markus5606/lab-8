@@ -16,7 +16,7 @@ int main()
 	printf("input Z: ");
 	scanf_s("%lf", &z);
 
-	A = x + y * z;
+	A = (x / y) * z;
 	printf("%lf\n", A);
 		system("pause");
 
